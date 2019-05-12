@@ -29,6 +29,12 @@ a {
     text-align: center;
 }
 
+section {
+    background-color: #ffffff;
+    width: 960px;
+    height: 410px;
+}
+
 footer {
     position: absolute;
     right: 0;
