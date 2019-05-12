@@ -1,0 +1,24 @@
+body {
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: white;
+    border: 2px solid #cccccc;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Name {
+    background-color: teal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 80%;
+    text-align: center;
+}
