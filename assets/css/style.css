@@ -15,10 +15,26 @@ h1 {
     padding-bottom: 20px;
 }
 
+a {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #Name {
     background-color: teal;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 80%;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom:0;
+    left: 0;
+    padding: 8px;
+    background-color: #666666;
     text-align: center;
 }
