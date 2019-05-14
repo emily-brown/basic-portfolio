@@ -9,28 +9,43 @@
 <body>
 
     <header>
+    
+        <h1 id="Name">Emily Brown</h1> 
+
+         <ul>
+            <li><a href="contact.html">Contact</a></li>
         
-    <h1 id="Name">Your Name</h1> 
-    
-    <a href="index.html">About</a>
-    
-    <a href="portfolio.html">Portfolio</a>
-    
-    <a href="contact.html">Contact</a>
-    
+            <li><a href="portfolio.html">Portfolio</a></li>
+        
+            <li><a href="index.html">About</a></li>
+        
+        </ul>
+        
     </header>
 
-    <h1>Contact</h1>
+    <section>
 
-    <h2>Name</h2>
-    <h2>Email</h2>
-    <h2>Message</h2>
+        <h2 id="about">Contact</h2>
 
-    <h2>Submit</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name...">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Best email to contact you at...">
+
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" placeholder="I'd love to hear from you...">
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
 
     <footer>
-        <p>copyright</p>
+        <p id="copyright">Copyright</p>
     </footer>
+
 </body>
 
 </html>

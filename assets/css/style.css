@@ -1,10 +1,12 @@
 body {
-    background-color: teal;
+    background-color: #4aaaa5;
     margin: 0;
     padding: 0;
 }
 
 header {
+    position: relative;
+    bottom: 0;
     background: white;
     border-bottom: 2px solid #cccccc;
 }
@@ -15,28 +17,102 @@ h1 {
     padding-bottom: 20px;
 }
 
-a {
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 #Name {
-    background-color: teal;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times,'Times New Roman', serif;
+    color: #ffffff;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 80%;
+    position: relative;
+    right: -11.6%;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    right: 80px;
+    top: -40px;
+    margin: 0;
+    padding: 0px 80px;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #777777;
     text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-right: 1px solid #ebebeb;
 }
 
 section {
     background-color: #ffffff;
     width: 960px;
-    height: 410px;
+    height: 450px;
     position: relative;
     left: 150px;
-    bottom: -15px;
+    bottom: -30px;
 }
+
+#about {
+    color: #4aaaa5;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    float: left;
+    position: relative;
+    top: -15px;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 3px solid #ebebeb;
+    width: 875px;
+}
+
+#container {
+    float: left;
+    position: relative;
+    right: -6px;
+    bottom: 30px;
+    margin: 20px;
+    padding: 10px 10px 10px 0px;
+
+}
+
+#text1 {
+    color: #777777;
+    text-align: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+#text2 {
+    color: #777777;
+    text-align: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 10px 20px 10px 20px;
+}
+
+#copyright{
+    float: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    color: #dddddd;
+    position: relative;
+    top: 12px;
+
+}
+
+
 
 footer {
     position: absolute;
