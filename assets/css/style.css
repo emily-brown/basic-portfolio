@@ -18,7 +18,7 @@ h1 {
 }
 
 
-#Name {
+.Name {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times,'Times New Roman', serif;
     color: #ffffff;
@@ -62,7 +62,7 @@ section {
     bottom: -30px;
 }
 
-#about {
+.title {
     color: #4aaaa5;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -99,7 +99,39 @@ section {
     text-align: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
+    margin: 0;
+}
+
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
+    float: inline-start;
+    margin: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+  }
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+input[placeholder] {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 12px;
 }
 
 #copyright{
@@ -109,10 +141,13 @@ section {
     color: #dddddd;
     position: relative;
     top: 12px;
-
 }
 
-
+#column {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
 
 footer {
     position: absolute;
