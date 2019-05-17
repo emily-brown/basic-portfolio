@@ -59,6 +59,10 @@ a {
     border-right: 1px solid #ebebeb;
 }
 
+a:hover {
+    color: #4aaaa5;
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -95,12 +99,15 @@ section {
 }
 
 p {
-    display: inline-block;
+    display: flex;
     text-align: left;
+    justify-content: flex-start;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
     padding: 20px;
+    margin-top: -225px;
+    margin-left: 230px;
 }
 
 form {
@@ -129,6 +136,11 @@ input[type=submit] {
     padding: 12px 20px;
     margin-top: 20px;
     border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: teal;
 }
 
 input[placeholder] {
@@ -145,7 +157,7 @@ input[placeholder] {
     top: -20px;
 }
 
-h3 {
+.games {
     position: absolute;
     background-color: #4aaaa5;
     top: 150px;
@@ -156,6 +168,10 @@ h3 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
+}
+
+.games:hover {
+    color: teal;
 }
 
 .abstract {
@@ -172,6 +188,7 @@ h3 {
     color: #dddddd;
     position: relative;
     top: 12px;
+    padding: 20px;
 }
 
 footer {
